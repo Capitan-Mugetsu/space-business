@@ -1,0 +1,100 @@
+.header{
+  background-image: url('../images/header-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.header__inner{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header__top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 75px 0 30px;
+}
+
+.navbar__list{
+  display: flex;
+}
+
+.navbar__item{
+  margin-right: 30px;
+}
+
+.navbar__link{
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 21px;
+  transition: all .3s ease;
+}
+
+.navbar__link:hover{
+  color: #CB0E0E;
+}
+
+.phone{
+  font-size: 24px;
+  line-height: 29px;
+  margin-left: auto;
+}
+
+button.login{
+  margin-right: 134px;
+  margin-left: 22px;
+}
+
+.header__content{
+  max-width: 600px;
+}
+
+.header__title{
+  font-family: 'spaceagecyrillic';
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.header__title span{
+  font-size: 110px;
+}
+
+.header__text{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 50px;
+}
+
+.header__btn{
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  text-align: center;
+  width: 100%;
+  padding: 15px 10px;
+}
+
+.header__desc{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+  margin-bottom: 5%;
+}
+
+.header__desc-text{
+  width: 165px;
+}
+
+.header__desc-text + .header__desc-text{
+  margin-left: 52px;
+}

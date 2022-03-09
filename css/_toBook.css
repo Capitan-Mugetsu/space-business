@@ -1,0 +1,26 @@
+.to-book{
+  background-image: url('../images/toBook-bg.jpg');
+  min-height: 100vh;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.to-book__inner{
+  display: flex;
+  justify-content: space-between;
+}
+
+.to-book__text{
+  width: 165px;
+  font-size: 14px;
+  line-height: 17px;
+  margin-left: auto;
+  margin-right: 52px;
+  margin-top: 100px;
+}
+
+.to-book__text + .to-book__text{
+  margin-left: 0;
+  margin-right: 0;
+}
