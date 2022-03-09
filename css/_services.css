@@ -1,0 +1,68 @@
+.services{
+  padding-bottom: 200px;
+}
+
+.services__inner{
+  display: flex;
+  justify-content: space-between;
+}
+
+.services__box-list{
+  width: 630px;
+  margin-right: 80px;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.services__list-title{
+  margin-bottom: 25px;
+}
+
+.services__list{
+  margin-bottom: 25px;
+}
+
+.services__list-item{
+  padding-left: 36px;
+  position: relative;
+}
+
+.services__list-item::before{
+  content: '';
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  border-radius: 50%;
+}
+
+.services__price{
+  color: #E5E5E5;
+  font-size: 11px;
+  line-height: 15px;
+}
+
+.services__buttons{
+  width: 500px;
+}
+
+.services__btn{
+  width: 100%;
+}
+
+.services__btn--first{
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.services__btn--first::before{
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 42px;
+  background-image: url('../images/space-man.png');
+  width: 192px;
+  height: 150px;
+}
