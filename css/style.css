@@ -6,6 +6,7 @@
 @import '_offer.css';
 @import '_services.css';
 @import '_slider.css';
+@import '_contacts.css';
 
 *,
 *::after,
@@ -48,6 +49,8 @@ body{
 
 /* !often used elements on website */
 
+
+
 .title{
   font-family: 'spaceagecyrillic';
   font-size: 48px;
@@ -55,6 +58,8 @@ body{
   font-weight: 400;
   padding: 100px 0;
 }
+
+
 
 .button{
   text-transform: uppercase;
